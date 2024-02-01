@@ -8,7 +8,9 @@ else:
     print(True)
 
 
-a = 1233
-b = a // 2
+a = 1234
+b = a % 2
 if b == 0:
-    print('chetnoe')
+    print('Четное')
+else:
+    print('Нечетное')
