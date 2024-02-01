@@ -16,8 +16,8 @@ else:
     print('Нечетное')
 
     #3
-a = 500
-if a % 4 == 0 or a % 400 == 0:
+a = 2004
+if a % 4 == 0 and a % 400 == 0:
     print('visokosny')
 
     #4
